@@ -1,3 +1,3 @@
-import { HomeNavigator, ProfileNavigator, QRcodeNavigator } from './Stacks'
+import { loginNavigator, HomeNavigator, ProfileNavigator, QRcodeNavigator } from './Stacks'
 
-export { HomeNavigator, ProfileNavigator , QRcodeNavigator}
+export { loginNavigator, HomeNavigator, ProfileNavigator , QRcodeNavigator}

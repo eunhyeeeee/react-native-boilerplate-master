@@ -1,6 +1,7 @@
 import React from 'react'
 import { createStackNavigator } from 'react-navigation-stack'
 import { colors } from 'theme'
+import login from 'scenes/login'
 import Home from 'scenes/home'
 import Profile from 'scenes/profile'
 import Details from 'scenes/details'
@@ -14,7 +15,14 @@ const navigationProps = {
   headerTitleStyle: { fontSize: 18 },
 }
 
+
+
+export const loginNavigator = createStackNavigator({
+  login: {screen: login}
+})
+
 export const HomeNavigator = createStackNavigator({
+
   Home: {
     screen: Home,
     navigationOptions: ({ navigation }) => ({
