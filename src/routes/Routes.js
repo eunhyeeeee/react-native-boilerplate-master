@@ -15,7 +15,18 @@ const Routes = ({ actions, checked, loggedIn }) => {
   console.log('[##] loggedIn', loggedIn)
 
   // rendering
-  if (!checked) return <Text>Loading...</Text>
+  if (!checked) return <Text >Loading...
+    로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 로딩 로딩 로딩 로딩 로~ 딩 로딩 ~~~~~~~~~~~~~~~~~~~
+    로딩 ~~~~~~~~~~~~~~~~~
+  </Text>
+
+  
+
   return <Main />
 }
 

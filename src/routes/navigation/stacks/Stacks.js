@@ -17,11 +17,19 @@ const navigationProps = {
 
 
 
-export const loginNavigator = createStackNavigator({
-  login: {screen: login}
-})
+// export const loginNavigator = createStackNavigator({
+//   login: {screen: login}
+// })
 
 export const HomeNavigator = createStackNavigator({
+
+  login: {screen: login,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Home',
+      headerTitle: <HeaderTitle />,
+      ...navigationProps,
+    }),
+  },
 
   Home: {
     screen: Home,
